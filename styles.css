@@ -1,0 +1,837 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/background.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+@media screen and (max-width: 1440px)
+{
+
+nav {
+    display: flex;
+    margin: 1.5% 3%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+}
+
+.logo img {
+    width: 30%;
+    height: 100%;
+    padding-left: 8%;
+}
+
+.logo {
+    margin-right: -8%;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 2.5%;
+    text-align: center;
+}
+
+
+.nav-menu ul li {
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: rgb(231, 210, 158);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-menu a:hover{
+    text-shadow: black  5px 10px 4px;
+    translate: 2px -7px; ;
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1.5%;
+    color: goldenrod;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 190%;
+    font-weight: 700;
+}
+
+.description {
+    
+    display: flex;
+    justify-content: center;
+    
+    color: antiquewhite;
+    font-size: 150%;
+    font-weight: 700;
+    padding-bottom: 2.5%;
+    
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+    
+}
+
+.cripto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+
+    background-color: rgb(236, 230, 221, 0.05);
+    border-radius: 5%;
+    padding: 0.2% 1%;
+    
+
+    margin-top: 4.5%;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    margin-right: 2%;
+    
+}
+
+.cripto h3 {
+    font-size: 180%;
+    padding: 2% 0% 0.5%;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: rgb(211, 179, 35);
+    margin: 2.4%;
+}
+
+.cripto img {
+    width: 22%;
+    max-height: 50vh;
+    margin: 1% 0%;
+    
+}
+
+.cripto p {
+    text-align: justify;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 400;
+    font-size: 110%;
+    padding: 3% 0%;
+
+    color: rgb(224, 223, 206);
+}
+
+#bitcoin img {
+    width: 28%;
+    margin: 3%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    background-color: rgb(96, 48, 141, 0.1);
+}
+
+.redes h5 {
+    font-size: 90%;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 100%;
+    padding-bottom: 2%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.coded {
+    font-size: 65%;
+}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: flex;
+        margin: 1.5% 3%;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 35px;
+    }
+    
+    .logo {
+        display: flex;
+        margin-right: -20%;
+    }
+
+    .logo img {
+        align-self: center;
+        width: 38%;
+        height: 90%;
+        padding-left: 8%;
+        min-width: 3%;
+    }
+    
+    
+    
+    .nav-menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 5% 2%;
+        text-align: center;
+    }
+    
+    
+    .nav-menu ul li {
+        margin: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .nav-menu a{
+        text-decoration: none;
+        color: rgb(231, 210, 158);
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .nav-menu a:hover{
+        text-shadow: black  5px 10px 4px;
+        translate: 2px -7px; ;
+    }
+    
+    .title {
+    
+        display: flex;
+        justify-content: center;
+    
+        margin-bottom: 1.5%;
+        color: goldenrod;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 150%;
+        font-weight: 700;
+    }
+    
+    .description {
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: antiquewhite;
+        font-size: 120%;
+        font-weight: 700;
+        padding-bottom: 2.5%;
+        margin: 0% 4%;
+        
+    }
+    
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        
+    }
+    
+    .cripto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+    
+        background-color: rgb(236, 230, 221, 0.05);
+        border-radius: 5%;
+        padding: 0.2% 1%;
+        
+    
+        margin-top: 4.5%;
+        margin-bottom: 5%;
+        margin-left: 12%;
+        margin-right: 2%;
+        
+    }
+    
+    .cripto h3 {
+        font-size: 140%;
+        padding: 2% 0% 0.5%;
+    
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        color: rgb(211, 179, 35);
+        margin: 2.4%;
+    }
+    
+    .cripto img {
+        width: 22%;
+        max-height: 50vh;
+        margin: 1% 0%;
+        
+    }
+    
+    .cripto p {
+        text-align: justify;
+        font-family: 'Sansita Swashed', cursive;
+        font-weight: 400;
+        font-size: 100%;
+        padding: 3% 0%;
+    
+        color: rgb(224, 223, 206);
+    }
+    
+    #bitcoin img {
+        width: 28%;
+        margin: 3%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+        background-color: rgb(96, 48, 141, 0.1);
+    }
+    
+    .redes h5 {
+        font-size: 90%;
+        
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 85%;
+        padding-bottom: 2%;
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+    
+    .coded {
+        font-size: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        margin: 1.5% 3%;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 35px;
+    }
+    
+    .logo img {
+        width: 38%;
+        min-width: 40%;
+        height: 100%;
+        min-height: 85%;
+        padding-left: 8%;
+    }
+    
+    .logo {
+        width: 20%;
+        min-width: 30%;
+    }
+    
+    .nav-menu ul {
+        padding: 0% 19%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        
+        
+    }
+    
+    
+    .nav-menu ul li {
+        margin: 0% 20.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .nav-menu a{
+        text-decoration: none;
+        color: rgb(231, 210, 158);
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .nav-menu a:hover{
+        text-shadow: black  5px 10px 4px;
+        translate: 2px -7px; ;
+    }
+    
+    .title {
+    
+        display: flex;
+        justify-content: center;
+    
+        margin-bottom: 1.5%;
+        color: goldenrod;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 130%;
+        font-weight: 700;
+    }
+    
+    .description {
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: antiquewhite;
+        font-size: 110%;
+        font-weight: 700;
+        padding-bottom: 2.5%;
+        margin: 0% 4%;
+        
+    }
+    
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        
+    }
+    
+    .cripto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+    
+        background-color: rgb(236, 230, 221, 0.05);
+        border-radius: 5%;
+        padding: 0.2% 1%;
+        
+    
+        margin-top: 4.5%;
+        margin-bottom: 5%;
+        margin-left: 12%;
+        margin-right: 2%;
+        
+    }
+    
+    .cripto h3 {
+        font-size: 120%;
+        padding: 2% 0% 0.5%;
+    
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        color: rgb(211, 179, 35);
+        margin: 2.4%;
+    }
+    
+    .cripto img {
+        width: 22%;
+        max-height: 50vh;
+        margin: 1% 0%;
+        
+    }
+    
+    .cripto p {
+        text-align: justify;
+        font-family: 'Sansita Swashed', cursive;
+        font-weight: 400;
+        font-size: 96%;
+        padding: 3% 0%;
+    
+        color: rgb(224, 223, 206);
+    }
+    
+    #bitcoin img {
+        width: 28%;
+        margin: 3%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+        background-color: rgb(96, 48, 141, 0.1);
+    }
+    
+    .redes h5 {
+        font-size: 90%;
+        
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 85%;
+        padding-bottom: 2%;
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+    
+    .coded {
+        font-size: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        margin: 1.5% 3%;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 35px;
+    }
+    
+    .logo img {
+        width: 38%;
+        min-width: 40%;
+        height: 100%;
+        min-height: 85%;
+        padding-left: 8%;
+    }
+    
+    .logo {
+        width: 20%;
+        min-width: 30%;
+    }
+    
+    .nav-menu ul {
+        padding: 0% 9%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        
+        
+    }
+    
+    
+    .nav-menu ul li {
+        margin: 0% 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .nav-menu a{
+        text-decoration: none;
+        color: rgb(231, 210, 158);
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .nav-menu a:hover{
+        text-shadow: black  5px 10px 4px;
+        translate: 2px -7px; ;
+    }
+    
+    .title {
+    
+        display: flex;
+        justify-content: center;
+    
+        margin-bottom: 1.5%;
+        color: goldenrod;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 95%;
+        font-weight: 700;
+    }
+    
+    .description {
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: antiquewhite;
+        font-size: 85%;
+        font-weight: 700;
+        padding-bottom: 2.5%;
+        margin: 0% 4%;
+        
+    }
+    
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        
+    }
+    
+    .cripto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+    
+        background-color: rgb(236, 230, 221, 0.05);
+        border-radius: 5%;
+        padding: 0.2% 1%;
+        
+    
+        margin-top: 4.5%;
+        margin-bottom: 5%;
+        margin-left: 12%;
+        margin-right: 2%;
+        
+    }
+    
+    .cripto h3 {
+        font-size: 100%;
+        padding: 2% 0% 0.5%;
+    
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        color: rgb(211, 179, 35);
+        margin: 2.4%;
+    }
+    
+    .cripto img {
+        width: 22%;
+        max-height: 50vh;
+        margin: 1% 0%;
+        
+    }
+    
+    .cripto p {
+        text-align: justify;
+        font-family: 'Sansita Swashed', cursive;
+        font-weight: 400;
+        font-size: 80%;
+        padding: 3% 0%;
+    
+        color: rgb(224, 223, 206);
+    }
+    
+    #bitcoin img {
+        width: 28%;
+        margin: 3%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+        background-color: rgb(96, 48, 141, 0.1);
+    }
+    
+    .redes h5 {
+        font-size: 90%;
+        
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 85%;
+        padding-bottom: 2%;
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+    
+    .coded {
+        font-size: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: flex;
+        margin: 1.5% 3%;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 35px;
+    }
+    
+    .logo img {
+        width: 45%;
+        min-width: 45%;
+        height: 95%;
+        min-height: 95%;
+        padding-left: 8%;
+    }
+    
+    .logo {
+        width: 30%;
+        min-width: 29%;
+    }
+    
+    .nav-menu ul {
+        padding: 0% 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        
+        
+    }
+    
+    
+    .nav-menu ul li {
+        margin: 0% 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .nav-menu a{
+        text-decoration: none;
+        color: rgb(231, 210, 158);
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .nav-menu a:hover{
+        text-shadow: black  5px 10px 4px;
+        translate: 2px -7px; ;
+    }
+    
+    .title {
+    
+        display: flex;
+        justify-content: center;
+    
+        margin-bottom: 1.5%;
+        color: goldenrod;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 95%;
+        font-weight: 700;
+    }
+    
+    .description {
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: antiquewhite;
+        font-size: 85%;
+        font-weight: 700;
+        padding-bottom: 2.5%;
+        margin: 0% 4%;
+        
+    }
+    
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        
+    }
+    
+    .cripto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    
+        background-color: rgb(236, 230, 221, 0.05);
+        border-radius: 5%;
+        padding: 0.2% 1%;
+        
+    
+        margin-top: 4.5%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        
+        
+    }
+    
+    .cripto h3 {
+        font-size: 100%;
+        padding: 2% 0% 0.5%;
+    
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        color: rgb(211, 179, 35);
+        margin: 2.4%;
+    }
+    
+    .cripto img {
+        width: 22%;
+        max-height: 50vh;
+        margin: 1% 0%;
+        
+    }
+    
+    .cripto p {
+        text-align: justify;
+        font-family: 'Sansita Swashed', cursive;
+        font-weight: 400;
+        font-size: 80%;
+        padding: 3% 0%;
+    
+        color: rgb(224, 223, 206);
+    }
+    
+    #bitcoin img {
+        width: 28%;
+        margin: 3%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+        background-color: rgb(96, 48, 141, 0.1);
+    }
+    
+    .redes h5 {
+        font-size: 90%;
+        
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 85%;
+        padding-bottom: 2%;
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+    
+    .coded {
+        font-size: 55%;
+    }
+}
